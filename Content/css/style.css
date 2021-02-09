@@ -1,0 +1,216 @@
+@import url("../font-awesome/css/font-awesome.css");
+
+.main-section {
+  background-image: url("../../Content/images/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #295f8e;
+}
+
+.main-image {
+  margin-bottom: -42px;
+}
+
+.welcome-section {
+  min-height: 300px;
+}
+
+.page-section {
+  min-height: 150px;
+}
+
+.price {
+  background: green;
+  color: white;
+  display: inline-block;
+  padding: 3px 6px;
+}
+
+.round-icon i {
+  display: block;
+  text-align: center;
+  padding: 22px 0;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 60px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  font-size: 36px;
+  background: #295f8e;
+  color: white;
+
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(41, 95, 142, 0.3);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(41, 95, 142, 0.3);
+  box-shadow: 5px 5px 10px 0px rgba(41, 95, 142, 0.3);
+}
+
+.fa-xlarge{font-size: 90px;}
+
+.small-border {
+  width: 100px;
+  height: 4px;
+  border-top: solid 4px #295f8e;
+  border-left: none;
+  border-right: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.border-radius3 {
+  border-radius: 15px;
+}
+
+@media (min-width: 1024px) {
+  .welcome-section,
+  .page-section {
+    -webkit-transform: translate(119px, 0);
+    transform: translate(119px, 0);
+  }
+  html[dir="rtl"] .welcome-section,
+  html[dir="rtl"] .page-section {
+    -webkit-transform: translate(-119px, 0);
+    transform: translate(-119px, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-section,
+  .page-section {
+    text-align: center;
+  }
+}
+
+.welcome-text1 {
+  font-size: 30px;
+  text-shadow: 0 0 12px black;
+}
+.welcome-text2 {
+  font-size: 58px;
+  line-height: 1;
+  text-shadow: 0 0 12px black;
+}
+.welcome-text3 {
+  font-size: 18px;
+  text-shadow: 0 0 12px black;
+}
+.welcome-text4 {
+  background: white;
+  display: inline-block;
+  padding: 3px 20px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+.owl-nav {
+  font-size: 60px;
+  line-height: 1;
+  margin-top: -20px;
+}
+
+.subfooter {
+  background-color: #295f8e;
+}
+.owl-dots {
+  text-align: CENTER;
+}
+.owl-nav button:focus,
+.owl-dots button:focus,
+.map {
+  outline: none !important;
+}
+
+.owl-carousel button.owl-dot {
+  width: 12px;
+  height: 12px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  margin: 0px 3px;
+}
+
+.owl-carousel button.owl-dot.active {
+  background-color: #333;
+}
+
+.carousel {
+  background: #eee;
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
+
+.font-big {
+  font-size: 130%;
+}
+
+.inner-shadow {
+  -webkit-box-shadow: 0px 18px 25px rgb(0 0 0 / 20%) inset;
+  box-shadow: 0px 18px 25px rgb(0 0 0 / 20%) inset;
+}
+.zi-3 {
+  z-index: 3;
+}
+
+.zi-3 .navbar-collapse.show{
+  background: rgba(0,0,0,0.8);
+}
+.map-shadow {
+  height: 93px;
+  z-index: 1;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5998774509803921) 73%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5998774509803921) 73%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5998774509803921) 73%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.mh-300 {
+  min-height: 300px !important;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.menu-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
