@@ -1,5 +1,6 @@
 @import url("../font-awesome/css/font-awesome.css");
 
+html,body{height: 100%;}
 .main-section {
   background-image: url("../../Content/images/1.jpg");
   background-size: cover;
@@ -18,7 +19,11 @@
 .page-section {
   min-height: 150px;
 }
-
+.login{min-height: calc(100% - 64px);}
+.shadow{
+  -webkit-box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
+}
 .price {
   background: green;
   color: white;
@@ -44,6 +49,20 @@
   box-shadow: 5px 5px 10px 0px rgba(41, 95, 142, 0.3);
 }
 
+
+.round-icon-sm i {
+  display: block;
+  text-align: center;
+  padding: 4px 0;
+  min-width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
 .fa-xlarge{font-size: 90px;}
 
 .small-border {
@@ -58,6 +77,11 @@
 
 .border-radius3 {
   border-radius: 15px;
+}
+
+.border-top-radius3{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 @media (min-width: 1024px) {
@@ -105,6 +129,14 @@
   font-size: 60px;
   line-height: 1;
   margin-top: -20px;
+}
+
+.social-icons a{
+  color:white;
+}
+
+.social-icons a:hover{
+  color:#333;
 }
 
 .subfooter {
